@@ -138,6 +138,7 @@ small a {
   color: #fff;
 }
 
+/* Section Two */
 article > section:nth-child(2) {
   padding: 60px 0;
 }
@@ -166,6 +167,7 @@ article > section:nth-child(2) {
   margin-bottom: 12px;
 }
 
+/* Section Three */
 article > section:nth-child(3) {
   background-color: #f6f9fd;
   padding: 40px 0;
@@ -201,6 +203,7 @@ video {
   align-items: flex-start;
 }
 
+/* Section Four */
 article > section:nth-child(4) {
   padding: 60px 0 0;
   text-align: center;
@@ -231,7 +234,7 @@ article > section:nth-child(4) {
   color: #107ba7;
   margin: 0 0.2em;
 }
-
+/* Section Five */
 article > section:nth-child(5) {
   background-image: linear-gradient(
       to left top,
