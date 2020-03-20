@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -105,8 +105,8 @@ label {
   font-size: 0.9rem;
 }
 
-input[type="text"],
-input[type="email"] {
+input[type='text'],
+input[type='email'] {
   display: inline-block;
   width: 100%;
   height: 45px;
@@ -115,7 +115,7 @@ input[type="email"] {
   border: 1px solid #ccc;
 }
 
-input[type="submit"] {
+input[type='submit'] {
   display: inline-block;
   border: none;
   background-color: #008000;
@@ -309,4 +309,68 @@ footer {
 
 .nav li a:hover {
   text-decoration: underline;
+}
+
+.copyright {
+  float: right;
+  color: #c0bcbc;
+  padding-top: 8px;
+}
+
+/* Media Querys */
+
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+  .col h3 {
+    font-size: 1.05rem;
+  }
+  h2 {
+    font-size: 1.43rem;
+  }
+}
+
+@media screen and (min-width: 660px) and (max-width: 959px) {
+  #intro {
+    flex-flow: column wrap;
+  }
+  h1 {
+    font-size: 3.3rem;
+  }
+  #description {
+    flex-basis: 100%;
+    padding: 0 0 0 0;
+    flex-grow: 0;
+  }
+  #two_section {
+    flex-flow: column wrap;
+  }
+  .col {
+    padding: 30px 0;
+  }
+  #three_section {
+    flex-flow: column wrap;
+  }
+  #three_section div {
+    flex-basis: 100%;
+    padding-right: 0;
+  }
+  #three_section a {
+    padding: 12px 0;
+    width: 100%;
+    text-align: center;
+  }
+  video {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  article > section:nth-child(4) {
+    padding: 30px 0 0;
+  }
+
+  #four_section {
+    flex-flow: column;
+  }
+
+  #five_section {
+    text-align: center;
+  }
 }
